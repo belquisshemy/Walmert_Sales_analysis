@@ -115,4 +115,5 @@ Advanced statistical modeling to predict sales or customer behavior.
 
 ## Acknowledgments
 Data Source: Kaggle’s Walmart Sales Dataset
+
 Inspiration: "Zero Analyst" YouTube Channel (Najir H.) for project structure and problem-solving approach.

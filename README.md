@@ -48,32 +48,35 @@ Analyzed the relationship between product ratings and sales volume to assess if 
 
 Data Source: Kaggle Walmart Sales Dataset
 
-Project Structure
+## Project Structure
+```plaintext
 |-- data/                     # Raw data and cleaned/transformed data
 |-- sql_queries/              # All SQL scripts used for analysis
 |-- notebooks/                # Jupyter Notebooks for Python data processing and exploratory analysis
 |-- README.md                 # Project documentation
 |-- requirements.txt          # List of required Python libraries
 |-- main.py                   # Main script for data ingestion, cleaning, and loading
+```
+---
 
-Getting Started
+## Getting Started
 To run this project locally, ensure you have Python 3.x and MySQL installed.
 
-Clone the repository:
+1. Clone the repository:
+  ```bash
+  git clone <your-repo-url>
+  ```
+2. Install Python dependencies:
+  ```bash
+  pip install -r requirements.txt
+  ```
+3. Kaggle Data Setup:
 
-git clone <your-repo-url>
-
-Install Python dependencies:
-
-pip install -r requirements.txt
-
-Kaggle Data Setup:
-
-Obtain your Kaggle API token (kaggle.json) from your Kaggle profile settings.
-
-Place kaggle.json in your local ~/.kaggle/ directory.
-
-Use the Kaggle API to download the Walmart sales dataset into the data/ folder (refer to main.py or notebooks for specific Kaggle commands).
+  Obtain your Kaggle API token (kaggle.json) from your Kaggle profile settings.
+  
+  Place kaggle.json in your local ~/.kaggle/ directory.
+  
+  Use the Kaggle API to download the Walmart sales dataset into the data/ folder (refer to main.py or notebooks for specific Kaggle commands).
 
 MySQL Database Setup:
 

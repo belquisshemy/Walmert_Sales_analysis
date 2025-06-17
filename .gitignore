@@ -1,0 +1,9 @@
+# Python virtual environment for Walmart project
+my_env1/
+.env     # To exclude your environment variables file (if you have one for this project)
+
+# Common IDE/OS files to ignore
+.vscode/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/ # Jupyter checkpoints can create clutter
